@@ -23,8 +23,12 @@ Available options are the following:
 --dataset         Graph dataset {cora, pubmed, ...}
 --randomstate     Random state seed (default=8)
 --k               Number of random splits (e.g. 3)
---model           Model name. Available models are {MODEL}_LP where {MODEL} can take values in {ECN, EAA, ERA, CN, AA, RA, GCN, GAT, GRAPHSAGE, GAE, VGAE, SEAL, NEOGNN}
+--model           Model name. Available models are {MODEL}_LP
 ```
+Available values for `MODEL` are:  
+- Enhanced topological heuristics: `ECN`, `EAA`, `ERA`.  
+- Topological heuristics: `CN`, `AA`, `RA`.  
+- GNNs: `GCN`, `GAT`, `GRAPHSAGE`, `GAE`, `VGAE`, `SEAL`, `NEOGNN`.
 
 ### Example
 
