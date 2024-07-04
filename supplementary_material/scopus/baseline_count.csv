@@ -1,0 +1,108 @@
+Index,Authors,Title,Year,Contains topological heuristics baselines,"Contains enhanced non-neural (e.g., with features)",Contains embedding-based baselines,Contains GNN-based baselines,Comments
+2,Zhang M.; Chen Y.,Link prediction based on graph neural networks,2018,1,0,1,1,"For comparisons with non neural, includes 8 topological heuristics (CN, Jaccard, PA, AA, RA, Katz, PR, SR) + Ensemble (ENS) + WLK + WLNM + latent feature methods (MD, SBM, node2vec, LINE, SPC, VGAE)"
+3,Zhang C.; Song D.; Huang C.; Swami A.; Chawla N.V.,Heterogeneous graph neural network,2019,0,0,1,1,"Metapath2Vec, ASNE, SHNE, GraphSage, GAT"
+4,Ying R.; Morris C.; Hamilton W.L.; You J.; Ren X.; Leskovec J.,Hierarchical graph representation learning with differentiable pooling,2018,,,,,graph classification task only
+5,Pareja A.; Domeniconi G.; Chen J.; Ma T.; Suzumura T.; Kanezashi H.; Kaler T.; Schardl T.B.; Leiserson C.E.,EvolveGCN: Evolving graph convolutional networks for dynamic graphs,2020,0,0,0,1,"GCN, GCN-GRU, DynGEM, dyngraph2vec"
+6,Fu X.; Zhang J.; Meng Z.; King I.,MAGNN: Metapath Aggregated Graph Neural Network for Heterogeneous Graph Embedding,2020,0,0,1,1,"graph embedding: LINE, node2vec, ESim, metapath2vec, HERec. GNNs: GCN, GAT, GATNE, HAN"
+7,Yun S.; Jeong M.; Kim R.; Kang J.; Kim H.J.,Graph transformer networks,2019,,,,,node classification task only
+8,Ma Y.; Aggarwal C.C.; Wang S.; Tang J.,Graph convolutional networks with eigenpooling,2019,,,,,graph classification task only
+9,Li Z.; Liu H.; Zhang Z.; Liu T.; Xiong N.N.,Learning Knowledge Graph Embedding With Heterogeneous Relation Attention Networks,2022,0,0,1,1,"transE, transD, TorusE, RotatE, Mod2, DistMult, ComplEx, ConvE, ConvKB, InteractE, R-GCN, SACN, HRN, HRAN"
+10,Ranjan E.; Sanyal S.; Talukdar P.,ASAP: Adaptive structure aware pooling for learning hierarchical graph representations,2020,,,,,graph classification task only
+11,Luo D.; Cheng W.; Yu W.; Zong B.; Ni J.; Chen H.; Zhang X.,Learning to Drop: Robust Graph Neural Network via Topological Denoising,2021,0,0,1,1,"GCN, DropEdge, NeuralSparse"
+12,Ma Y.; Guo Z.; Ren Z.; Tang J.; Yin D.,Streaming Graph Neural Networks,2020,0,0,1,1,"GCN, GraphSage, node2vec, DynGEM, CPTM, DANE, DynamicTriad"
+13,Li P.; Wang Y.; Wang H.; Leskovec J.,Distance encoding: Design provably more powerful neural networks for graph representation learning,2020,0,0,1,1,"GCN, SAGE, GIN, Struct2vec, PGNN, SEAL"
+14,You J.; Ying R.; Leskovec J.,Position-aware graph neural networks,2019,0,0,0,1,"GCN, GraphSage, GAT, GIN"
+15,Yin R.; Li K.; Zhang G.; Lu J.,A deeper graph neural network for recommender systems,2019,1,0,1,0,"ItemPop, SVD, SVD+"
+16,Mao X.; Wang W.; Xu H.; Wu Y.; Lan M.,Relational Reflection Entity Alignment,2020,0,0,1,1,"JAPE, GCN-align, RSN, MuGNN, TransEdge, AliNet, MRAEA, Boot-EA, NAEA, GMNN, RDGCN, HGCN, DGMC"
+17,Zhao C.; Li C.; Fu C.,Cross-domain recommendation via preference propagation graphnet,2019,0,0,1,1,"BPRMF, NeuMF, NeuMF+, CoNet, SCoNet"
+18,You J.; Gomes-Selman J.M.; Ying R.; Leskovec J.,Identity-aware Graph Neural Networks,2021,0,0,0,1,"GAT, GCN, GIN, GraphSage"
+19,Zhu Z.; Zhang Z.; Xhonneux L.-P.; Tang J.,Neural Bellman-Ford Networks: A General Graph Neural Network Framework for Link Prediction,2021,1,0,1,1,"Katz, PPR, SimRank, DeepWalk, LINE, node2vec, VGAE, S-VGAE, SEAL, TLC-GNN"
+20,Min S.; Gao Z.; Peng J.; Wang L.; Qin K.; Fang B.,STGSN — A Spatial–Temporal Graph Neural Network framework for time-evolving social networks,2021,0,0,1,1,"GCN, CTDNE, TemporalWalk, GraphSage, GAT"
+21,Baek J.; Kang M.; Hwang S.J.,ACCURATE LEARNING OF GRAPH REPRESENTATIONS WITH GRAPH MULTISET POOLING,2021,,,,,graph classification task only
+22,Cai L.; Li J.; Wang J.; Ji S.,Line Graph Neural Networks for Link Prediction,2022,1,0,1,1,"Katz, PR, SimRank, node2vec, GAE, SEAL"
+23,Li Z.; Li J.; Nie R.; You Z.-H.; Bao W.,A graph auto-encoder model for miRNA-disease associations prediction,2021,1,0,1,0,"application-specific baseline models: WBSMDA, RFMDA, PBMDA, LLCMDA, EDTMDA, GBDT-LR, MCLPMDA"
+24,Pradhyumna P.; Shreya G.P.; Mohana,Graph Neural Network (GNN) in Image and Video Understanding Using Deep Learning for Computer Vision Applications,2021,,,,,is a survey
+25,Huang J.; Shen H.; Hou L.; Cheng X.,Signed Graph Attention Networks,2019,0,0,1,1,"DeepWalk, node2vec, LINE, SIDE, SiNE, SIGNet, SGCN, FeExtra"
+26,Cai L.; Ji S.,A multi-scale approach for graph link prediction,2020,1,0,1,1,"CN, Jaccard, PA, AA, RA, Katz, PR, SR + Ensemble (ENS) + node2vec + SEAL"
+27,Liu Z.; Nguyen T.-K.; Fang Y.,Tail-GNN: Tail-Node Graph Neural Networks,2021,0,0,1,1,"DeepWalk, GCN, Additive, a la carte, meta-tail2vec, SDNE, ARGA, DDGCN, DEMO-Net, role2vec"
+28,Yang M.; Zhou M.; Kalander M.; Huang Z.; King I.,Discrete-time Temporal Network Embedding via Implicit Hierarchical Learning in Hyperbolic Space,2021,0,0,1,1,"GAE, VGAE, GRUGCN, EvolveGCN, DySAT, VGRNN"
+29,Qu L.; Zhu H.; Duan Q.; Shi Y.,Continuous-Time Link Prediction via Temporal Dependent Graph Neural Network,2020,0,0,1,1,"GCN, GraphSage, node2vec, LINE, CTDNE, GAT"
+30,Baek J.; Lee D.B.; Hwang S.J.,Learning to extrapolate knowledge: Transductive few-shot out-of-graph link prediction,2020,0,0,1,1,"TransE, RotatE, DistMul, ComplEx, R-GCN, MEAN, LAN, GMatching, MetaR, FSRL, I-GEN, T-GEN"
+31,Grover A.; Zweig A.; Ermon S.,Graphite: Iterative generative modeling of graphs,2019,0,0,1,1,"Spectral clustering, DeepWalk, node2vec, GAE, VGAE"
+32,You J.; Du T.; Leskovec J.,ROLAND: Graph Learning Framework for Dynamic Graphs,2022,0,0,0,1,"EvolveGCN-H, EvolveGCN-O, T-GCN, GCRN-GRU, GCRN-LSTM, GCRN-baseline"
+33,Zhang M.; Li P.; Xia Y.; Wang K.; Jin L.,Labeling Trick: A Theory of Using Graph Neural Networks for Multi-Node Representation Learning,2021,1,0,1,1,"CN, AA, MLP, MF, node2vec, GraphSage, GCN, GCN+LRGA, GCN+DE, GCN+DRNL, SEAL"
+34,Chen T.; Sui Y.; Chen X.; Zhang A.; Wang Z.,A Unified Lottery Ticket Hypothesis for Graph Neural Networks,2021,0,0,0,1,"GCN, GIN, GAT, ResGCN"
+35,Wu L.; Cui P.; Pei J.; Zhao L.; Song L.,Graph Neural Networks,2022,,,,,book chapter
+36,Shen Z.-A.; Luo T.; Zhou Y.-K.; Yu H.; Du P.-F.,Npi-gnn: Predicting ncrna-protein interactions with deep graph neural networks,2021,0,0,1,0,"IncPro, RPI-Pred, RPISeq-RF, IPMiner"
+37,Yadati N.; Nitin V.; Nimishakavi M.; Yadav P.; Louis A.; Talukdar P.,NHP: Neural Hypergraph Link Prediction,2020,0,0,1,1,"HGCN, HyperGCN, Hyper-SAGNN, node2vec, node2vec-GCN, node2vec-mean, node2vec-maxmin, CMM, SHC"
+38,Liu X.; Tan H.; Chen Q.; Lin G.,RAGAT: Relation Aware Graph Attention Network for Knowledge Graph Completion,2021,0,0,1,1,"TransE, DistMult, ComplEx, RotatE, CrossE, ConvE, ConvR, InteractE, R-GCN, SACN, VR-GCN, A2N, KBGAT, G2SKGE, TransE-GCN, COMPGCN"
+39,Zhang W.; Mao J.; Cao Y.; Xu C.,Multiplex Graph Neural Networks for Multi-behavior Recommendation,2020,0,0,1,1,"BPRMF, GCN, CMF, MELL, NMTR"
+40,Hwang D.; Park J.; Kwon S.; Kim K.-M.; Ha J.-W.; Kim H.J.,Self-supervised auxiliary learning with meta-paths for heterogeneous graphs,2020,0,0,0,1,"GCN, GAT, GIN, SGC, GTN"
+41,Zhou F.; Cao C.,Overcoming Catastrophic Forgetting in Graph Neural Networks with Experience Replay,2021,,,,,node classification task only
+42,Ahn S.J.; Kim M.,Variational Graph Normalized AutoEncoders,2021,0,0,0,1,"LGAE, ARGA, ARGVA, GIC, sGraphite-VAE"
+43,Zhang M.; Wu S.; Yu X.; Liu Q.; Wang L.,Dynamic Graph Neural Networks for Sequential Recommendation,2023,0,0,1,1,"BPR-MF, FPMC, GRU4Rec+, Caser, SASRec, SR-GNN, HGN, TiSASRec, GCE-GNN, SERec, HyperRec"
+44,Hu F.; Zhu Y.; Wu S.; Huang W.; Wang L.; Tan T.,GraphAIR: Graph representation learning with neighborhood aggregation and interaction,2021,0,0,1,1,"SC, DeepWalk, GAE, VGAE, AIR-GAE"
+45,Ye Y.; Ji S.,Sparse Graph Attention Networks,2023,,,,,no link prediction task
+46,Dai J.; Wu Y.; Gao Z.; Jia Y.,A Hyperbolic-to-Hyperbolic Graph Convolutional Network,2021,0,0,1,1,"Euclidean embedding, hyperbolic Euclidean embedding, MLP, HNN, GCN, GAT, GraphSage, SGC. Note: for the first two embedding methods, an enhanced version including node features is proposed (using concatenation between shallow node embedding and node features)"
+47,Peng L.; Hu R.; Kong F.; Gan J.; Mo Y.; Shi X.; Zhu X.,Reverse Graph Learning for Graph Neural Network,2022,0,0,1,1,"GCN, GLCN, JLGCN, DIAL, DeepWalk, GraphSage, SGC, QFE, QE, Diffusion, EGT, GSS"
+48,Liu Z.; Huang C.; Yu Y.; Dong J.,Motif-preserving dynamic attributed network embedding,2021,0,0,0,1,"GraLSP, GraphSTONE, DynGEM, DynAE, DynAERNN, MMDNE, CTDNE, TGAT, DySAT"
+49,Xia L.; Liang Y.; Zheng P.; Leng J.,Maintenance planning recommendation of complex industrial equipment based on knowledge graph and graph neural network,2023,0,0,1,1,"Comp-RGCN, RGCN, GCN, TransE, CNN, DNN, DistMult"
+50,Hou Y.; Chen H.; Li C.; Cheng J.; Yang M.-C.,A representation learning framework for property graphs,2019,0,0,1,1,"DeepWalk, node2vec, GCN, GraphSage"
+51,Li W.; Ni L.; Wang J.; Wang C.,Collaborative representation learning for nodes and relations via heterogeneous graph neural network,2022,0,0,1,1,"Metapath2vec, GCN, GraphSage, GAT, RGCN, HGT, GATNE, CompGCN"
+52,Li P.; Wang Y.; Zhao H.; Hong P.; Liu H.,ON DYADIC FAIRNESS: EXPLORING AND MITIGATING BIAS IN GRAPH CONNECTIONS,2021,0,0,1,1,"VGAE, node2vec, Fairwalk"
+53,Zhang T.; Xiong Y.; Zhang J.; Zhang Y.; Jiao Y.; Zhu Y.,CommDGI: Community Detection Oriented Deep Graph Infomax,2020,,,,,community detection task
+54,Deng Q.; Wang K.; Zhao M.; Zou Z.; Wu R.; Tao J.; Fan C.; Chen L.,Personalized Bundle Recommendation in Online Games,2020,0,0,1,1,"BPR, BundleBPR, DAM, GCN-Bi, GCN-Bi-B, GCN-Tri, GCN-Tri-B, BundleNet, BundleNet-B"
+55,Zhang X.; He Y.; Brugnone N.; Perlmutter M.; Hirn M.,MagNet: A Neural Network for Directed Graphs,2021,0,0,0,1,"ChebNet, GCN, APPNP, GraphSage, GIN, GAT, DGCN, Digraph, DigraphIB"
+56,Roddenberry T.M.; Segarra S.,HodgeNet: Graph Neural Networks for Edge Data,2019,,,,,flow interpolation task
+57,Wu Y.; Ma K.; Cai Z.; Jin T.; Li B.; Zheng C.; Cheng J.; Yu F.,Seastar: Vertex-centric programming for graph neural networks,2021,,,,,no link prediction task
+58,Yun S.; Kim S.; Lee J.; Kang J.; Kim H.J.,Neo-GNNs: Neighborhood Overlap-aware Graph Neural Networks for Link Prediction,2021,1,0,1,1,"CN, AA, RA, MF, node2vec, MLP, GCN, GraphSage, JK-net, GAT, SEAL"
+59,Chen X.; Chen S.; Yao J.; Zheng H.; Zhang Y.; Tsang I.W.,Learning on Attribute-Missing Graphs,2022,0,0,1,1,"SPM, DeepWalk, node2vec, GAE, VGAE, Hers, GraphRNA, ARWMF"
+60,Wang J.; Ma A.; Ma Q.; Xu D.; Joshi T.,Inductive inference of gene regulatory network using supervised and semi-supervised graph neural networks,2020,1,0,1,0,"SVM, RF, GENIE3, MRNET, ARACNE, CLR"
+61,Wang Z.; Ren Z.; He C.; Zhang P.; Hu Y.,Robust embedding with multi-level structures for link prediction,2019,0,0,1,1,"DistMult, ComplEx, R-GCN, R-GCN+, GCNN, TransE"
+62,Long Y.; Wu M.; Liu Y.; Fang Y.; Kwoh C.K.; Chen J.; Luo J.; Li X.,Pre-training graph neural networks for link prediction in biomedical networks,2022,0,0,1,1,"SL2MF, GRSMF, GCATSL, SLMGAE, DDGCN, NeoDTI, DeepDTA, MolTrans, DeepConv-DTI, GraphDTA"
+63,Duddu V.; Boutet A.; Shejwalkar V.,Quantifying privacy leakage in graph embedding,2020,,,,,only graph reconstruction and attribute inference attack tasks
+64,Lin W.; Ji S.; Li B.,Adversarial Attacks on Link Prediction Algorithms Based on Graph Neural Networks,2020,0,0,0,1,SEAL
+65,Makarov I.; Korovina K.; Kiselev D.,JONNEE: Joint Network Nodes and Edges Embedding,2021,0,0,1,1,"HOPE, GraphFactorization, node2vec, diff2vec, GAE, GAT, GraphSage"
+66,Kong K.; Li G.; Ding M.; Wu Z.; Zhu C.; Ghanem B.; Taylor G.; Goldstein T.,Robust Optimization as Data Augmentation for Large-scale Graphs,2022,0,0,0,1,"GCN, GraphSage, GAT, GIN"
+67,Gu W.; Gao F.; Li R.; Zhang J.,Learning universal network representation via link prediction by graph convolutional neural network,2021,1,0,1,1,"RA, LINE, node2vec, GraphSage, VGAE"
+68,Shao K.; Zhang Y.; Wen Y.; Zhang Z.; He S.; Bo X.,DTI-HETA: prediction of drug–target interactions based on GCN and GAT on heterogeneous graph,2022,0,0,1,1,"HIN2VEC, EVENT2VEC, JUST, HEER, GATNE, PGCNw"
+69,Yu P.; Fu C.; Yu Y.; Huang C.; Zhao Z.; Dong J.,Multiplex Heterogeneous Graph Convolutional Network,2022,0,0,1,1,"node2vec, RandNE, FastRP, SGC, AM-GCN, R-GCN, HAN, NARS, MAGNN, HPN, PMNE, MNE, GATNE, GTN, DMGI, FAME, HGSL, DualHGNN"
+70,Wang C.; An J.; Mu G.,Power System Network Topology Identification Based on Knowledge Graph and Graph Neural Network,2021,,,,,no link prediction task
+71,Yang C.; Wang C.; Lu Y.; Gong X.; Shi C.; Wang W.; Zhang X.,Few-shot link prediction in dynamic networks,2022,0,0,0,1,"GraphSage, GAT, DyRep, EvolveGCN, TGAT, Meta-GNN, GraphSage+MAML, TGAT+MAML"
+72,Hu J.; Qian S.; Fang Q.; Wang Y.; Zhao Q.; Zhang H.; Xu C.,Efficient Graph Deep Learning in TensorFlow with tf_geometric,2021,,,,,no link prediction task
+73,Munikoti S.; Das L.; Natarajan B.,Scalable graph neural network-based framework for identifying critical nodes and links in complex networks,2022,0,0,0,1,GCN
+74,Xiao Y.; Pei Q.; Xiao T.; Yao L.; Liu H.,MutualRec: Joint friend and item recommendations with mutualistic attentional graph neural networks,2021,0,0,1,1,"BayDNN, GraphSage, ASNE, AttentionWalk, HAN"
+75,Jiang X.; Zhu R.; Ji P.; Li S.,Co-Embedding of Nodes and Edges With Graph Neural Networks,2023,0,0,1,1,"VGAE, spectral clustering, DeepWalk"
+76,Rong Y.; Xu T.; Huang J.; Huang W.; Cheng H.; Ma Y.; Wang Y.; Derr T.; Wu L.; Ma T.,"Deep Graph Learning: Foundations, Advances and Applications",2020,,,,,tutorial
+77,Xu S.; Yang C.; Shi C.; Fang Y.; Guo Y.; Yang T.; Zhang L.; Hu M.,Topic-aware Heterogeneous Graph Neural Network for Link Prediction,2021,0,0,1,1,"DeepWalk, Mp2vec, HERec, GraphSage, GAT, DisenGCN, HAN, DisenHAN, MAGNN"
+78,Yan Z.; Ma T.; Gao L.; Tang Z.; Chen C.,Link Prediction with Persistent Homology: An Interactive View,2021,0,0,0,1,"GCN, GAT, SEAL, HGCN, GIL, PEGN"
+79,Wang Z.; Ji S.,Second-Order Pooling for Graph Neural Networks,2023,,,,,graph classification task only
+80,Kang C.; Zhang H.; Liu Z.; Huang S.; Yin Y.,LR-GNN: a graph neural network based on link representation for predicting molecular associations,2022,0,0,0,1,"VP-GNN, TF-GNN, VC-GNN, VS-GNN"
+81,Liu W.; Zhang Y.; Wang J.; He Y.; Caverlee J.; Chan P.P.K.; Yeung D.S.; Heng P.-A.,Item Relationship Graph Neural Networks for E-Commerce,2022,0,0,1,1,"Logistic Regression, Sceptre, PME, PMSC, RGCN, HetGCN, LVAE"
+82,Wu W.; Li B.; Luo C.; Nejdl W.,Hashing-accelerated graph neural networks for link prediction,2021,0,0,1,1,"BANE, LQANR, NetHash, SEAL, P-GNN"
+83,Wang Z.; Di S.; Chen L.,AutoGEL: An Automated Graph Neural Network with Explicit Link Information,2021,1,0,1,1,"CN, RA, Katz, Specral Clustering, LINE, node2vec, VGAE, PGNN, SEAL, DE-GNN, TransE, RotatE, DistMult, ComplEx, R-GCN, SACN, VR-GCN, CompGCN, ConvKB, ConvE, ConvR, HyperER"
+84,Wang H.; Yin H.; Zhang M.; Li P.,EQUIVARIANT AND STABLE POSITIONAL ENCODING FOR MORE POWERFUL GRAPH NEURAL NETWORKS,2022,0,0,1,1,"VGAE, P-GNN, SEAL, GNN Trans, LE, DeepWalk"
+85,Wang T.; Wan X.; Yao S.,Better AMR-to-text generation with graph structure reconstruction,2020,,,,,link prediction is not the final task
+86,Ferreira D.; Freitas A.,Premise selection in natural language mathematical texts,2020,0,0,0,1,BERT
+87,Guo Z.; Wang F.; Yao K.; Liang J.; Wang Z.,Multi-scale variational graph autoencoder for link prediction,2022,0,0,0,1,"GAE, VGAE, ARGA, ARVGA, DBGAN"
+88,Ding M.; Kong K.; Li J.; Zhu C.; Dickerson J.; Huang F.; Goldstein T.,VQ-GNN: A Universal Framework to Scale-up Graph Neural Networks using Vector Quantization,2021,0,0,0,1,"NS-SAGE, Cluster-GCN, GraphSAINT"
+89,Zhang G.; Li M.; Deng H.; Xu X.; Liu X.; Zhang W.,SGNNMD: Signed graph neural network for predicting deregulation types of miRNA-disease associations,2022,0,0,1,1,"SGCN, SNEA, GCMC, TDRC, NMCMDA, MISIM"
+90,Zhou H.; Zheng D.; Nisa I.; Ioannidis V.; Song X.; Karypis G.,TGL: A General Framework for Temporal GNN Training on Billion-Scale Graphs,2022,0,0,0,1,"JODIE, DySAT, TGAT, TGN, APAN"
+91,Wu Y.; Song Y.; Huang H.; Ye F.; Xie X.; Jin H.,Enhancing Graph Neural Networks via auxiliary training for semi-supervised node classification,2021,0,0,0,1,"GCN, GraphSage, GAT, SGC"
+92,Li W.; Zhang X.; Wang Y.; Yan Z.; Peng R.,Graph2Seq: Fusion Embedding Learning for Knowledge Graph Completion,2019,0,0,1,1,"TransE, TransR, HolE, ANALOGY, RESCAL, DistMult, ComplEx, ER-MLP, Neural LP, ConvE, R-GCN, MINERVA, M-Walk, SA-KGE"
+93,Nguyen D.Q.; Tong V.; Phung D.; Nguyen D.Q.,Node co-occurrence based graph neural networks for knowledge graph link prediction,2022,0,0,1,1,"QuatE, R-GCN, CompGCN, SACN, ComplEx, TuckER"
+94,Sun X.; Yin H.; Liu B.; Chen H.; Meng Q.; Han W.; Cao J.,Multi-level hyperedge distillation for social linking prediction on sparsely observed networks,2021,0,0,1,1,"Metapath2vec, PME, HAN, HGNN, MGCN"
+95,Salha-Galvan G.; Lutzeyer J.F.; Dasoulas G.; Hennequin R.; Vazirgiannis M.,Modularity-aware graph autoencoders for joint community detection and link prediction,2022,0,0,1,1,"GAE, VGAE, ARGA, ARGVA, node2vec, DeepWalk"
+96,Spinelli I.; Scardapane S.; Hussain A.; Uncini A.,FairDrop: Biased Edge Dropout for Enhancing Fairness in Graph Representation Learning,2022,0,0,0,1,"GCN, GAT, FairAdj"
+97,Lin L.; Wang H.,Graph Attention Networks over Edge Content-Based Channels,2020,0,0,1,1,"GraphSage, GAT, MNE, GATNE, EAGCN"
+98,Alrahis L.; Patnaik S.; Hanif M.A.; Shafique M.; Sinanoglu O.,UNTANGLE: Unlocking Routing and Logic Obfuscation Using Graph Neural Networks-based Link Prediction,2021,0,0,0,1,SEAL
+99,Mei X.; Cai X.; Yang L.; Wang N.,Relation-aware Heterogeneous Graph Transformer based drug repurposing[Formula presented],2022,0,0,1,1,"TransE, DIsMult, ComplEx, ConvE, GCN, GraphSage, GAT, BiFusion, RGCN, HGT"
+100,Sarkar A.; Mehta N.; Rai P.,Graph representation learning via ladder gamma variational autoencoders,2020,0,0,1,1,"Spectral clustering, DeepWalk, VGAE, DGLFRM, EPM"
+101,Yin J.; Tang M.; Cao J.; You M.; Wang H.; Alazab M.,Knowledge-Driven Cybersecurity Intelligence: Software Vulnerability Coexploitation Behavior Discovery,2023,0,0,0,1,"GCN, GraphSage, EdgeGCN, GINGCN"
+102,Choong J.J.; Liu X.; Murata T.,Optimizing variational graph autoencoder for community detection with dual optimization,2020,,,,,community detection task
+103,Zhang W.; Jiang Y.; Li Y.; Sheng Z.; Shen Y.; Miao X.; Wang L.; Yang Z.; Cui B.,ROD: Reception-aware Online Distillation for Sparse Graphs,2021,0,0,1,1,"GAE, VGAE, LightGCN, SGC, SIGN, AGE, Spectral clustering, DeepWalk"
+104,Liu X.; Li X.; Fiumara G.; De Meo P.,Link prediction approach combined graph neural network with capsule network,2023,1,0,1,1,"CN, Jaccard, LHN-I, AA, LP, Cos, RWR, SEAL, DEAL, Spectral clustering, DeepWalk"
+105,Zeb A.; Haq A.U.; Chen J.; Lei Z.; Zhang D.,Learning hyperbolic attention-based embeddings for link prediction in knowledge graphs,2021,0,0,1,1,"R-GCN, KBGAT, ConvKB, MINERVA, M-Walk, KGBAN, NeuralLP, CapsE, ConvE, DistMult, ComplEx, Hole, TransE, TransD, RotatE, MuRP"
+106,Alrahis L.; Patnaik S.; Shafique M.; Sinanoglu O.,MuxLink: Circumventing Learning-Resilient MUX-Locking Using Graph Neural Network-based Link Prediction,2022,0,0,0,1,DGCNN
+107,Li L.; Zhang X.; Ma Y.; Gao C.; Wang J.; Yu Y.; Yuan Z.; Ma Q.,A knowledge graph completion model based on contrastive learning and relation enhancement method,2022,0,0,1,1,"TransE, DistMult, RotatE, ConvE, SACN, InteractE, R-GCN, A2N, MRGAT, HRAN, LTE, DeepER, ComGCN"
+108,Sun D.; Li D.; Ding Z.; Zhang X.; Tang J.,Dual-decoder graph autoencoder for unsupervised graph representation learning,2021,0,0,1,1,"DeepWalk Spectral clustering, GAE, VGAE, ARGA, ARVGA"
