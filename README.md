@@ -52,6 +52,19 @@ Results for all evaluation metrics are saved within `src/runs/` directory.
 If you find the code useful, please cite our paper.
 
 ```
-To be updated.
+@inproceedings{DBLP:conf/ecai/DelarueBV24,
+  author       = {Simon Delarue and
+                  Thomas Bonald and
+                  Tiphaine Viard},
+  title        = {Link Prediction Without Learning},
+  booktitle    = {{ECAI} 2024 - 27th European Conference on Artificial Intelligence, 19-24 October 2024, Santiago de Compostela, Spain},
+  series       = {Frontiers in Artificial Intelligence and Applications},
+  volume       = {392},
+  pages        = {2274--2281},
+  publisher    = {{IOS} Press},
+  year         = {2024},
+  url          = {https://doi.org/10.3233/FAIA240750},
+  doi          = {10.3233/FAIA240750},
+}
 ```
 
